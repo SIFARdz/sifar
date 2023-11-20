@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+     padding: 0; 
+     box-sizing: border-box; 
+     text-decoration: none; 
+     border: none; 
+     outline: none; 
+     scroll-behavior: smooth; 
+     font-family: 'Poppins' , sans-serif;
+}
+:root{
+    --bg-color:#19331A;
+    --text-color:#fff;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+.header.sticky{
+    border-bottom: .1rem solid rgba(0, 0, 0, 2);
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--bg-color);
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--bg-color);
+}
+.home_photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.home_photo img{
+    padding: 25px;
+    width: 30vw;
+    
+}
+
+.home_photo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8vh;
+    padding-bottom: 20vh;
+
+}
+.home_photo2 img{
+    padding: 2px;
+    width: 80vw;
+}
+.home_photo3{
+    position: absolute;
+    top: 0;
+    left:0;    
+
+}
+.home_photo3 img{
+    width: 70vw;
+}
+
+.home_photo4{
+    position: absolute;
+    right:30px; 
+    top:60vh;   
+
+}
+.home_photo4 img{
+    width: 30vw;
+}
+
+.home_photo5{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+.home_photo5 img{
+    width: 100vw;
+
+}
+
+
+
+.home_photo7{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10vh;
+}
+.home_photo5 img{
+    width: 100px;
+}
+
+
+.home_photo9{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15vh;
+}
+.home_photo5 img{
+    width: 400px;
+}
+
+h2{
+    font-size: 1.7rem;
+    color: var(--bg-color);
+    font-family: bold;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 2rem 2.8rem;
+    background: var(--bg-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    font-family: bold;
+}
+.btn:hover{
+    box-shadow: none;
+}
