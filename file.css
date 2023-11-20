@@ -30,6 +30,7 @@ section{
 }
 
 .header{
+    min-height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -44,15 +45,19 @@ section{
 .header.sticky{
     border-bottom: .1rem solid rgba(0, 0, 0, 2);
 }
-.home{
+.home {
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--bg-color);
-    overflow: scroll;
+    background: var(--text-color);
+    /* Retirez cette ligne pour permettre au défilement de se produire naturellement */
+    /* overflow-y: scroll; */
 }
+
 .social-media{
     position: relative;
 }
@@ -79,16 +84,6 @@ section{
 .social-media a:hover{
     color: var(--bg-color);
     background: transparent;
-}
-.home{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    background: var(--text-color);
 }
 
 
@@ -156,9 +151,8 @@ h2{
     font-size: 1.7rem;
     color: var(--bg-color);
     font-family: bold;
+
 }
-
-
 
 .btn {
     position: relative;
@@ -173,7 +167,7 @@ h2{
     font-weight: 600;
     transition: .5s ease;
     font-family: bold;
-    margin: 10px;
+    margin-bottom:40px;
 }
 .btn:hover{
     box-shadow: none;
