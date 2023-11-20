@@ -28,6 +28,7 @@ section{
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
+
 .header{
     position: fixed;
     top: 0;
@@ -39,7 +40,7 @@ section{
     justify-content: center;
     align-items: center;
     z-index: 100;
-
+    overflow: scroll;
 }
 .header.sticky{
     border-bottom: .1rem solid rgba(0, 0, 0, 2);
@@ -66,14 +67,19 @@ section{
     border: .2rem solid var(--bg-color);
     border-radius: 50%;
     font-size: 2rem;
-    color: var(--bg-color);
     margin: 3rem 1.5rem 3rem 0;
-        
-}
-.social-media a:hover{
+
     background: var(--bg-color);
     color: var(--text-color);
     box-shadow: 0 0 1rem var(--bg-color);
+
+
+
+        
+}
+.social-media a:hover{
+    color: var(--bg-color);
+    background: transparent;
 }
 .home{
     height: 100vh;
